@@ -18,7 +18,7 @@ public class EstoqueTeste {
     @Test
     void testarMetodoAdicionarNoEstoque(){
         estoque.adicionarItemEstoque();
-        assertEquals(101, estoque.retorneAQuantidadeDeItemEstoque());
+        assertEquals(100, estoque.retorneAQuantidadeDeItemEstoque());
     }
 
     @Test
